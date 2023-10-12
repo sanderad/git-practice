@@ -3,11 +3,11 @@
 declare(strict_types=1);
 
 
-class FeatureConflict
+class Feature1
 {
     public function __construct(
         private string $username
     ) {
-        return $username . 'ñ3';
+        return $username . 'f1';
     }
 }
