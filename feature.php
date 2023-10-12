@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-class Feature
+class Feature2
 {
     public function __construct(
         private string $username
     ) {
-        return $username . 'ñ';
+        return $username . 'ñ2';
     }
 }
