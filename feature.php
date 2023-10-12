@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-class Feature3
+class FeatureConflict2
 {
     public function __construct(
         private string $username
