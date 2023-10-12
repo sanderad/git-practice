@@ -2,8 +2,8 @@
 
 declare(strict_types=1);
 
+class Feature1
 
-class Feature2
 {
     public function __construct(
         private string $username
